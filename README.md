@@ -11,8 +11,7 @@ Folders Included
 Files Included, no folder
 - index.html : web landing page containing main information on analysis
 
-Assets
-Files Included
+Assets Folder, Files Included
 - pg1.html : contains visualization and description for temperature analysis
 - pg2.html : contains visualization and description for humidity analysis
 - pg3.html : contains visualization and description for cloudiness analysis
@@ -21,8 +20,7 @@ Files Included
 - data.html : contains table with raw data from csv used in analysis
 - style.css : CSS file containing web styling
 
-Visualizations
-Files Included
+Visualizations Folder, Files Included
 - Fig1.png : temperature plot
 - Fig2.png : humidity plot
 - Fig3.png : cloudiness plot
