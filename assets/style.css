@@ -1,11 +1,21 @@
-<style>
-    td {
-        border:1px solid rgb(66, 64, 64);
-        }
-    thead {
-        background: rgb(102, 172, 173);
-        }
-    tfoot {
-        font-size: 15pt;
-        }
-</style>
+body {
+    background: #a8f2fc;
+    color: rgb(82, 79, 79);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 36pt;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a:visited {
+    color: rgb(82, 79, 79);
+}
