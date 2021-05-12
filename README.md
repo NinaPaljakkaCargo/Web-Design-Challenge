@@ -21,12 +21,14 @@ Files Included
 - data.html : contains table with raw data from csv used in analysis
 - style.css : CSS file containing web styling
 
-Data Used
- --> Resources folder
- - cities.csv 
- --> Visualizations folder
- - Fig1.png : temperature plot
- - Fig2.png : humidity plot
- - Fig3.png : cloudiness plot
- - Fig4.png : wind speed plot
+Visualizations
+Files Included
+- Fig1.png : temperature plot
+- Fig2.png : humidity plot
+- Fig3.png : cloudiness plot
+- Fig4.png : wind speed plot
+
+Data Used --> Resources folder
+- cities.csv 
+ 
 
