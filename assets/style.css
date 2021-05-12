@@ -1,0 +1,11 @@
+<style>
+    td {
+        border:1px solid rgb(66, 64, 64);
+        }
+    thead {
+        background: rgb(102, 172, 173);
+        }
+    tfoot {
+        font-size: 15pt;
+        }
+</style>
