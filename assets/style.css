@@ -1,15 +1,5 @@
-<div class = "topnav">
-  <a class="active" href="index.html">Home</a>
-  <a href="assets/pg1.html">Temperature Page</a>
-  <a href="assets/pg2.html">Humidity Page</a>
-  <a href="assets/pg3.html">Cloudiness Page</a>
-  <a href="assets/pg4.html">Wind Speed Page</a>
-  <a href="assets/comp.html">Comparisons Page</a>
-  <a href="assets/data.html">Raw Data Page</a>
-</div>
-
 body {
-    background: #a8f2fc;
+    background: #d9f4f8;
     color: rgb(82, 79, 79);
     font-family: 'Open Sans', sans-serif;
 }
@@ -28,4 +18,30 @@ h1 {
 
 a:visited {
     color: rgb(82, 79, 79);
+}
+
+/* navigation menu */
+/*black background*/
+.topnav {
+    background-color: rgb(65, 61, 61);
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(144, 248, 208);
+    color: black;
+}
+  
+topnav a.active {
+    background-color: #fa8354;
+    color: black;
 }
