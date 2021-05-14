@@ -10,6 +10,7 @@ Folders Included
 
 Files Included, no folder
 - index.html : web landing page containing main information on analysis
+- data.ipynb : notebook for pulling csv to html for data page of web page
 
 Assets Folder, Files Included
 - pg1.html : contains visualization and description for temperature analysis
