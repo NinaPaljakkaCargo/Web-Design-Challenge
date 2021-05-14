@@ -1,3 +1,13 @@
+<div class = "topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="assets/pg1.html">Temperature Page</a>
+  <a href="assets/pg2.html">Humidity Page</a>
+  <a href="assets/pg3.html">Cloudiness Page</a>
+  <a href="assets/pg4.html">Wind Speed Page</a>
+  <a href="assets/comp.html">Comparisons Page</a>
+  <a href="assets/data.html">Raw Data Page</a>
+</div>
+
 body {
     background: #a8f2fc;
     color: rgb(82, 79, 79);
