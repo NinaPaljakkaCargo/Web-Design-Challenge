@@ -22,12 +22,12 @@ a:visited {
 
 /* navigation menu */
 /*black background*/
-.topnav {
+.navbar {
     background-color: rgb(65, 61, 61);
     overflow: hidden;
 }
   
-.topnav a {
+.navbar a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -36,12 +36,12 @@ a:visited {
     font-size: 17px;
 }
 
-.topnav a:hover {
+.navbar a:hover {
     background-color: rgb(144, 248, 208);
     color: black;
 }
   
-topnav a.active {
+.navbar a.active {
     background-color: #fa8354;
     color: black;
 }
