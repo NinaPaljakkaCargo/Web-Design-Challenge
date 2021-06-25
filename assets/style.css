@@ -36,12 +36,52 @@ a:visited {
     font-size: 17px;
 }
 
-.navbar a:hover {
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(144, 248, 208);
     color: black;
 }
   
 .navbar a.active {
-    background-color: #fa8354;
+    background-color: rgb(144, 248, 208);
     color: black;
+}
+
+/* Dropdown*/
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button*/
+.dropdown .dropbtn {
+    font-size: 14px;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Dropwdown content*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(144, 248, 208);
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Links in dropdown*/
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* show menu when hovering*/
+.dropdown:hover .dropdown-content {
+    display: block;
 }
