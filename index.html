@@ -2,83 +2,137 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <title>City Data - Home</title>
-    <!-- Bring in our bootstrap stylesheet -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bring in bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>City Data - Home</title>
 </head>
       
 
 <body>
-    <div class = "topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="assets/pg1.html">Temperature Page</a>
-        <a href="assets/pg2.html">Humidity Page</a>
-        <a href="assets/pg3.html">Cloudiness Page</a>
-        <a href="assets/pg4.html">Wind Speed Page</a>
-        <a href="assets/comp.html">Comparisons Page</a>
-        <a href="assets/data.html">Raw Data Page</a>
-    </div>
+
+<div class="navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class= "nav link" href="pg1.html">Temperature </a>
+    </li>
+    <li class="nav-item">
+        <a class= "nav link" href="pg2.html">Humidity </a>
+    </li>
+    <li class="nav-item">
+        <a class= "nav link" href="pg3.html">Cloudiness</a>
+    </li>   
+    <li class="nav-item">
+        <a class= "nav link" href="pg4.html">Wind Speed</a>
+    </li>
+    <li class="nav-item">
+        <a class= "nav link" href="comp.html">Comparisons</a>
+    </li>
+    <li class="nav-item">
+        <a class= "nav link" href="data.html">Raw Data </a>
+    </li>
+
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Plots </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class= "dropdown-item" href="../Visualizations/Fig1.png">Temperature Plot</a>
+                <div class="dropdown-divider"></div>
+                <a class= "dropdown-item" href="../Visualizations/Fig2.png">Humidity Plot</a>
+                <div class="dropdown-divider"></div>
+                <a class= "dropdown-item" href="../Visualizations/Fig3.png">Cloudiness Plot</a>
+                <div class="dropdown-divider"></div>
+                <a class= "dropdown-item" href="../Visualizations/Fig4.png">Wind Speed Plot</a>
+                <div class="dropdown-divider"></div>
+            </div>
+    </li>
+
+</div>
+
+     
+    
+    <div class="container">
+        <div>
+            <h1 style="font-family:Georgia, 'Times New Roman', Times, serif;">City Data - Home</h1>
+        </div>
+        <div>
+            <h2 style="font-family:sans-serif;">Summary of City Data:</h2>
+        </div>
+        <div>
+            <ul>
+                <p>Welcome! Here you can find weather trend conclusions from a data source containing weather information
+                    from multiple cities. The plots presented look at the trends between weather specifics (temperature,
+                    humidity, cloudiness, and wind speed) and corresponding lattitude. Enjoy!
+                </p>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <p>
+                    Plots can be selected for a closer look, or you can use the links below to see full summaries of
+                    the data observed.
+                </p>
+            </ul>
+        </div>
 
 
-    <div>
-        <h1 style="font-family:Georgia, 'Times New Roman', Times, serif;">City Data - Home</h1>
-    </div>
-    <div>
-        <h2 style="font-family:sans-serif;">Summary of City Data:</h2>
-    </div>
-    <div>
-        <ul>
-            <p>Welcome! Here you can find weather trend conclusions from a data source containing weather information
-                from multiple cities. The plots presented look at the trends between weather specifics (temperature,
-                humidity, cloudiness, and wind speed) and corresponding lattitude. Enjoy!
-            </p>
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <p>
-                Plots can be selected for a closer look, or you can use the links below to see full summaries of
-                the data observed.
-            </p>
-        </ul>
+        <div class="row">
+            <div class="col">
+                <figure>
+                    <a target="_blank" href="pg1.html">
+                    <figcaption><em>Temperature</em></figcaption>
+                    </a>
+                    <a target="_blank" href="../Visualizations/Fig1.png">
+                    <img src="../Visualizations/Fig1.png" alt="City Latitude vs Max Temperature" width="200">
+                    </a>
+                </figure>
+            </div>        
+        
 
-        <figure>
-            <a target="_blank" href="assets/pg1.html">
-            <figcaption><em>Temperature</em></figcaption>
-            </a>
-            <a target="_blank" href="Visualizations/Fig1.png">
-            <img src="Visualizations/Fig1.png" alt="City Latitude vs Max Temperature" width="200">
-            </a>
-        </figure>
+            <div class="col">
+                <figure>
+                    <a target="_blank" href="pg2.html">
+                    <figcaption><em>Humidity</em></figcaption>
+                    </a>
+                    <a target="_blank" href="../Visualizations/Fig2.png">
+                    <img src="../Visualizations/Fig2.png" alt="City Latitude vs Humidity" width="200">
+                    </a>
+                </figure>
+            </div>
+        
+            <div class="w-100"></div>
 
-        <figure>
-            <a target="_blank" href="assets/pg2.html">
-            <figcaption><em>Humidity</em></figcaption>
-            </a>
-            <a target="_blank" href="Visualizations/Fig2.png">
-            <img src="Visualizations/Fig2.png" alt="City Latitude vs Humidity" width="200">
-            </a>
-        </figure>
+            <div class="col">
+                <figure>
+                    <a target="_blank" href="pg3.html">
+                    <figcaption><em>Cloudiness</em></figcaption>
+                    </a>
+                    <a target="_blank" href="../Visualizations/Fig3.png">
+                    <img src="../Visualizations/Fig3.png" alt="City Latitude vs Cloudiness" width="200">
+                    </a>
+                </figure>
+            </div>
+        
+            <div class= "col">
+                <figure>
+                    <a target="_blank" href="pg4.html">
+                    <figcaption><em>Wind Speed</em></figcaption>
+                    </a>
+                    <a target="_blank" href="../Visualizations/Fig4.png">
+                    <img src="../Visualizations/Fig4.png" alt="City Latitude vs Wind Speed" width="200">
+                    </a>
+                </figure>
+            </div>
+        </div>
+        
 
-        <figure>
-            <a target="_blank" href="assets/pg3.html">
-            <figcaption><em>Cloudiness</em></figcaption>
-            </a>
-            <a target="_blank" href="Visualizations/Fig3.png">
-            <img src="Visualizations/Fig3.png" alt="City Latitude vs Cloudiness" width="200">
-            </a>
-        </figure>
-
-        <figure>
-            <a target="_blank" href="assets/pg4.html">
-            <figcaption><em>Wind Speed</em></figcaption>
-            </a>
-            <a target="_blank" href="Visualizations/Fig4.png">
-            <img src="Visualizations/Fig4.png" alt="City Latitude vs Wind Speed" width="200">
-            </a>
-        </figure>
     </div>
 
 </body>
