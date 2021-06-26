@@ -12,26 +12,48 @@
 
 
 <body>
-    <div class = "navbar">
-        <a class="active" href="index.html">Home</a>
-        <a href="pg1.html">Temperature </a>
-        <a href="pg2.html">Humidity</a>
-        <a href="pg3.html">Cloudiness </a>
-        <a href="pg4.html">Wind Speed </a>
-        <a href="comp.html">Comparisons </a>
-        <a href="data.html">Raw Data </a>
-        <div class="dropdown">
-            <button class="dropbtn"> Plots
-                <i class ="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="../Visualizations/Fig1.png">Temperature Plot</a>
-                <a href="../Visualizations/Fig2.png">Humidity Plot</a>
-                <a href="../Visualizations/Fig3.png">Cloudiness Plot</a>
-                <a href="../Visualizations/Fig4.png">Wind Speed Plot</a>
+<div class="navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class= "nav link" href="pg1.html">Temperature </a>
+    </li>
+    <li class="nav-item">
+        <a class= "nav link" href="pg2.html">Humidity </a>
+    </li>
+    <li class="nav-item">
+        <a class= "nav link" href="pg3.html">Cloudiness</a>
+    </li>   
+    <li class="nav-item">
+        <a class= "nav link" href="pg4.html">Wind Speed</a>
+    </li>
+    <li class="nav-item">
+        <a class= "nav link" href="comp.html">Comparisons</a>
+    </li>
+    <li class="nav-item">
+        <a class= "nav link" href="data.html">Raw Data </a>
+    </li>
+    
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Plots </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class= "dropdown-item" href="../Visualizations/Fig1.png">Temperature Plot</a>
+                <div class="dropdown-divider"></div>
+                <a class= "dropdown-item" href="../Visualizations/Fig2.png">Humidity Plot</a>
+                <div class="dropdown-divider"></div>
+                <a class= "dropdown-item" href="../Visualizations/Fig3.png">Cloudiness Plot</a>
+                <div class="dropdown-divider"></div>
+                <a class= "dropdown-item" href="../Visualizations/Fig4.png">Wind Speed Plot</a>
+                <div class="dropdown-divider"></div>
             </div>
-        </div>
-    </div>
+    </li>
+    
+</div>
 
     <div>
         <h1 style="font-family:sans-serif;">City Data - Humidity </h1>
